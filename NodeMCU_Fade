@@ -1,0 +1,19 @@
+void setup() 
+{
+  pinMode(4, OUTPUT);
+}
+
+void loop() 
+{
+  for(int i=0;i<1024;i++)
+  {
+    analogWrite(4, i);
+    delay(10);
+  }
+  delay(200);
+  for(int i=1023;i>=0;i--)
+  {
+    analogWrite(4, i);
+    delay(10);
+  }
+}
