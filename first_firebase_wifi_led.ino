@@ -4,8 +4,8 @@
 //macros
 #define WIFI_SSID "HUMPTY'S HUAWEI Y9"
 #define WIFI_PASSWORD "hello1234"
-#define FIREBASE_HOST "iot-project-faf5c.firebaseio.com/"
-#define FIREBASE_AUTH "ID0guHGjIrXpuGeo17lYIJ4Oz18PJezrZE1z3781"
+#define FIREBASE_HOST "Firebase Host URL here"
+#define FIREBASE_AUTH "Auth Key Here"
 int LED=0; //to store variable from NodeMCU
 void setup() 
 {
